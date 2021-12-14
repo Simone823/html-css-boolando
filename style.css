@@ -88,3 +88,16 @@
     text-decoration: line-through;
 }
 
+/* Immagine hover display none */
+.img-hover{
+    display: none;
+}
+
+/* Hover */
+.img-card:hover .img-base{
+    display: none;
+}
+
+.img-card:hover .img-hover{
+    display: initial;
+}
