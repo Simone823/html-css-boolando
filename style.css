@@ -1,0 +1,68 @@
+/* Reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+/* Carta */
+.card{
+    width: 480px;
+    height: 769px;
+    /* border: 1px solid red; */
+    margin-left: 30px;
+}
+
+/* Immagine e testo immagine */
+.img-card, img{
+    width: 100%;
+    height: 669px;
+    /* border: 1px solid red; */
+    position: relative;
+
+}
+
+.sconti{
+    position: absolute;
+    left: 0;
+    bottom: 25px;
+}
+
+.red{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.green{
+    background-color: green;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+}
+
+/* Descrizione */
+.description{
+    width: 470px;
+    height: 63px;
+    /* border: 1px solid red; */
+    margin-top: 10px;
+}
+
+.description h1{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.price-red{
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.price-del{
+    color: black;
+    text-decoration: line-through;
+}
