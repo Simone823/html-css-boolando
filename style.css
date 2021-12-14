@@ -5,13 +5,21 @@
     box-sizing: border-box;
     font-size: 14px;
 }
+/* Container */
+.container{
+    width: 1920px;
+    height: 1630px;
+    /* border: 1px solid red; */
+}
 
 /* Carta */
 .card{
     width: 480px;
     height: 769px;
     /* border: 1px solid red; */
-    margin-left: 30px;
+    margin-top: 30px;
+    margin-left: 50px;
+    display: inline-block;
 }
 
 /* Immagine e testo immagine */
