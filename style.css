@@ -7,9 +7,10 @@
 }
 /* Container */
 .container{
-    width: 1920px;
+    max-width: 90%;
     height: 1630px;
     /* border: 1px solid red; */
+    margin: 0 auto;
 }
 
 /* Carta */
@@ -51,6 +52,18 @@
     font-weight: bold;
 }
 
+.heart{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+}
+
 /* Descrizione */
 .description{
     width: 470px;
@@ -75,14 +88,3 @@
     text-decoration: line-through;
 }
 
-.heart{
-    width: 50px;
-    height: 50px;
-    background-color: white;
-    position: absolute;
-    top: 30px;
-    right: 0;
-    text-align: center;
-    line-height: 50px;
-    font-size: 30px;
-}
